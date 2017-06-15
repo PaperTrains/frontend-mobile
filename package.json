@@ -1,0 +1,27 @@
+{
+  "name": "frontend-mobile",
+  "version": "1.0.0",
+  "description": "HRO (Rotterdam University of Applied Sciences) project for the NS (Nederlandse Spoorwegen)",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaperTrains/frontend-mobile.git"
+  },
+  "author": "Tim Romeijn (0894594)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaperTrains/frontend-mobile/issues"
+  },
+  "homepage": "https://github.com/PaperTrains/frontend-mobile#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp.sass": "^1.3.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
