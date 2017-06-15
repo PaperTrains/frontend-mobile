@@ -6,10 +6,16 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
-.login-header {
-    background: url("./assets/images/header.png") no-repeat center;
-    height: 365px;
-    width: 414px;
+.main-container {
+    height: 100%;
+    width: 100%;
+
+}
+.login-header > img {
+    // overflow: hidden;
+    width: 100%;
 }

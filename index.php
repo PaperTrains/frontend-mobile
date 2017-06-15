@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="main-container">
-            <div class="login-header">
+        <div class="login-header">
             <img src="./app/images/Header.png">
         </div>
         <div class="login-form">
