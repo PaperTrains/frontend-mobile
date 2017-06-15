@@ -23,10 +23,8 @@ gulp.task('hello', function() {
 // Start browserSync server
 gulp.task('browserSync', function() {
   browserSync({
-    server: {
-      baseDir: 'app'
-    }
-  })
+    proxy: "127.0.0.1/frontend-mobile/"
+    })
 })
 
 gulp.task('sass', function() {
@@ -41,7 +39,7 @@ gulp.task('sass', function() {
 // Watchers
 gulp.task('watch', function() {
   gulp.watch('app/scss/**/*.scss', ['sass']);
-  gulp.watch('app/*.html', browserSync.reload);
+  gulp.watch('app/*.php', browserSync.reload);
   gulp.watch('app/js/**/*.js', browserSync.reload);
 })
 
@@ -51,7 +49,7 @@ gulp.task('watch', function() {
 // Optimizing CSS and JavaScript 
 gulp.task('useref', function() {
 
-  return gulp.src('app/*.html')
+  return gulp.src('app/*.php')
     .pipe(useref())
     .pipe(gulpIf('*.js', uglify()))
     .pipe(gulpIf('*.css', cssnano()))
