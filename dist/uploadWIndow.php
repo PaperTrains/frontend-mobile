@@ -18,9 +18,9 @@
         </div>
         <div class="information-container">
             <div class="text-container">
-                <span class="picture-text">Voeg uw foto toe in het polaroid frame</span><br>
-                <span class="message-text">Maak een persoonlijk tekstje voor eronder</span><br>
-                <span class="shake-text">Shake it like a polaroid picture</span><br>
+                <span class="picture-text">Voeg uw foto toe in het polaroid frame</span>
+                <span class="message-text">Maak een persoonlijk tekstje voor eronder</span>
+                <span class="shake-text">Shake it like a polaroid picture</span>
             </div>
         </div>
     </div>

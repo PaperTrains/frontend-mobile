@@ -8,6 +8,14 @@ body {
   margin: 0 auto;
   margin-top: 100px; }
 
+.information-container {
+  background-image: url("../images/Blue_Slope.png");
+  height: 210px;
+  position: absolute;
+  width: 376px;
+  left: 0px;
+  margin-top: 34px; }
+
 .thumb {
   margin: 10px 5px 0 0;
   width: 100px; }
@@ -36,13 +44,60 @@ body {
 
 .upload-text {
   font-family: Noteworthy-Light;
-  font-size: 14px; }
+  font-size: 14px;
+  margin: 10px auto; }
+
+.picture-text, .message-text, .shake-text {
+  color: white;
+  font-size: 12px;
+  line-height: 49px;
+  font-family: NSSANBOL; }
+
+.picture-text::before {
+  background: url("../images/Toevoegen_foto_ICOON.png");
+  content: " ";
+  background-size: 100% 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+  width: 23px;
+  height: 25px; }
+
+.message-text::before {
+  background: url("../images/tekst_ICOON.png");
+  content: " ";
+  background-size: 100% 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+  width: 19px;
+  height: 19px; }
+
+.shake-text::before {
+  content: " ";
+  background: url("../images/Shake_ICOON.png");
+  background-size: 100% 100%;
+  margin-right: 10px;
+  margin-top: 10px;
+  float: left;
+  width: 23px;
+  height: 30px; }
+
+.text-container {
+  margin: 40px auto 0 50px;
+  width: 80%;
+  -ms-transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  transform: rotate(-6deg); }
 
 @font-face {
   font-family: Noteworthy-Light;
   src: url("../fonts/Noteworthy-Light.ttf") format("opentype"); }
 
-/* Example stylistic flourishes */
+@font-face {
+  font-family: NSSANBOL;
+  src: url("../fonts/NSSANBOL.TTF") format("opentype"); }
+
 .upload {
   background: #f5f0c8;
   position: relative;
