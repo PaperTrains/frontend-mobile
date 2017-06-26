@@ -1,6 +1,5 @@
 body {
-  background: url("./assets/images/ns_background.png") repeat center;
-  background-color: #ffcc18;
+  background: #ffcc18 url("../images/ns_background.png") repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,3 +14,39 @@ body {
 
 .login-header > img {
   width: 100%; }
+
+.papertrains-head {
+  width: 75%;
+  position: absolute;
+  z-index: 500;
+  top: 38%;
+  left: 12.5%; }
+
+input[type=submit] {
+  width: 75%;
+  background-color: #7EB2EF;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 12.5% 0 12.5%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+.username {
+  width: 62%;
+  background-color: white;
+  color: white;
+  padding: 14px 20px;
+  margin: 55px 12.5% 0 12.5%;
+  border: none;
+  border-radius: 4px;
+  outline: none; }
+
+.password {
+  width: 62%;
+  background-color: white;
+  color: white;
+  padding: 14px 20px;
+  margin: 20px 12.5% 0 12.5%;
+  border: none;
+  border-radius: 4px; }
