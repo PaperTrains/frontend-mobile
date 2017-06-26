@@ -17,7 +17,7 @@
         </div>    
 
         <a href="uploadWindow.php">
-            Volgend scherm
+            <input type="submit" value="Maak een foto">
         </a>    
         
     </div>

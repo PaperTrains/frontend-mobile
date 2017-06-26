@@ -10,10 +10,26 @@ body {
 }
 
 .intro-text {
-    
+    font-family: NSSANBOL;
+    width: 343px;
+    height: 123px;
+    object-fit: contain;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.71;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000066;
+}
+
+@font-face {
+  font-family: NSSANBOL;
+  src: url("../fonts/NSSANBOL.TTF") format("opentype");
 }
 
 .ns-logo-nb {
     display: block;
     margin: 0 auto;
+    margin-top: 11%;
+    margin-bottom: 6.9%;
 }
