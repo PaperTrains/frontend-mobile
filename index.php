@@ -23,7 +23,7 @@
             </div>
         </div>    
 
-        <a href="#">
+        <a href="intro.php">
             <input type="submit" value="Inloggen">
         </a>    
         
