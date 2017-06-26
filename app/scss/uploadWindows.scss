@@ -1,0 +1,69 @@
+body {
+  background: #ffcc18 url("../images/ns_background.png") repeat center;
+}
+
+.polaroidContainer {
+  background-image: url("../images/polaroid_GROOT.png");
+  width: 313px;
+  height: 323px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.thumb {
+    margin: 10px 5px 0 0;
+    width: 100px;
+}
+
+.upload {
+  overflow: hidden;
+  position: relative;
+}
+
+.upload [type=file] {
+  cursor: inherit;
+  display: block;
+  font-size: 999px;
+  filter: alpha(opacity=0);
+  height: 230px;
+  width: 270px;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+}
+
+.camera {
+  margin: 80px auto 0 auto;
+  width: 50px;
+  height: 42px;
+}
+
+.upload-text {
+  font-family: Noteworthy-Light;
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: Noteworthy-Light;
+  src: url("../fonts/Noteworthy-Light.ttf") format("opentype");
+}
+
+/* Example stylistic flourishes */
+
+.upload {
+  background: #f5f0c8;
+  position: relative;
+  padding: .5em;
+  top: 26px;
+  left: 25px;
+  width: 251px;
+  height: 213px;
+  display: flex;
+  flex-direction: column;
+}
+
+.upload [type=file] {
+  cursor: pointer;
+}
