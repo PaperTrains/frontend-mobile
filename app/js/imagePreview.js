@@ -17,8 +17,10 @@ $(document).ready(function(){
                             $('#thumb-output').append(img); //append image to output element
                             $('#camera').addClass("hidden");
                             $('#upload-text').addClass("hidden");
+                            $('#information-container').addClass("hidden");
                             $('#checkmark').removeClass("hidden");
                             $('#picture-input').removeClass("hidden");
+                            $("#reveal-button").removeClass("hidden");
                         };
                     })(file);
                     fRead.readAsDataURL(file); //URL representing the file's data.
@@ -29,4 +31,42 @@ $(document).ready(function(){
             alert("Your browser doesn't support File API!"); //if File API is absent
         }
     });
+
+    $("#reveal-button").on("click", function()
+    {
+        $('#send-button').removeClass("hidden");
+        $("#reveal-button").addClass("hidden");
+        $(".thumb").addClass("appear");
+        $("#thumb-output").removeClass("hidden");
+        $("#upload").addClass("hidden");
+    });
+    $("#send-button").on("click", SendData);
 });
+
+function SendData()
+{
+    console.log("senddata");
+    var count = $("#file-input").attr('id');
+    count = count.replace("img_upload_", "");
+
+    // make form data to submit later without refreshing page
+    var data = new FormData();
+    data.append('photo', $("#file-input").prop('files')[0]);
+    data.append('count', count)
+    data.append('message', $("#picture-input").val());
+
+    $.ajax({
+        type: 'POST',
+        processData: false, // important
+        contentType: false, // important
+        data: data,
+        url: "http://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/images/upload.php",
+        success: function(jsonData){
+            // after uploading, process the photo
+            console.log(jsonData);
+        },
+        error: function(jqxhr,textStatus,errorThrown) {
+            alert("Fout: Uploaden mislukt." + jqxhr + textStatus + errorThrown);
+        }
+    });
+}
