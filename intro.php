@@ -19,6 +19,11 @@
         <a href="uploadWindow.php">
             <input type="submit" value="Maak kennis!">
         </a>    
+
+        <div class="tilted-container">
+            <img src="./app/images/left_polaroid.png" class="left-polaroid">
+            <img src="./app/images/right_polaroid.png" class="right-polaroid">
+        </div>
         
     </div>
   <script src="./app/js/scripts.js"></script>

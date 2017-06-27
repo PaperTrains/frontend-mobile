@@ -10,7 +10,6 @@ body {
 
 .intro-text {
   font-family: NSSANBOL;
-  width: 343px;
   height: 123px;
   object-fit: contain;
   font-size: 24px;
@@ -39,3 +38,23 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer; }
+
+.tilted-container {
+  background-image: url("../images/Blue_Slope.png");
+  height: 210px;
+  position: absolute;
+  width: 100%;
+  bottom: -66px;
+  left: 0px;
+  margin-top: 34px; }
+
+.left-polaroid {
+  position: absolute;
+  bottom: 150px;
+  z-index: 10; }
+
+.right-polaroid {
+  position: absolute;
+  right: 0;
+  bottom: 150px;
+  z-index: 10; }
