@@ -10,11 +10,13 @@
     <div class="main-container">
         <div class="polaroidContainer">
             <div class="upload">
-                <img class="camera" src="./app/images/camera_ICOON.png">
-                <span class="upload-text">Voeg uw foto toe</span>
-                <input type="file"/>
+                <img id="camera" class="camera" src="./app/images/camera_ICOON.png">
+                <img id="checkmark" class="checkmark hidden" src="./app/images/Done_ICOON.png">
+                <span id= "upload-text" class="upload-text">Voeg uw foto toe</span>
+                <input type="file" id="file-input"/>
             </div>
-            <div id="thumb-output"></div>
+            <div id="thumb-output" class="hidden"></div>
+            <input type="text" id="picture-input" class="picture-input hidden" name="picture-text" placeholder="Typ uw bericht">
         </div>
         <div class="information-container">
             <div class="text-container">

@@ -15,6 +15,10 @@ $(document).ready(function(){
                         return function(e) {
                             var img = $('<img/>').addClass('thumb').attr('src', e.target.result); //create image element
                             $('#thumb-output').append(img); //append image to output element
+                            $('#camera').addClass("hidden");
+                            $('#upload-text').addClass("hidden");
+                            $('#checkmark').removeClass("hidden");
+                            $('#picture-input').removeClass("hidden");
                         };
                     })(file);
                     fRead.readAsDataURL(file); //URL representing the file's data.
