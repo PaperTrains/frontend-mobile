@@ -40,13 +40,11 @@ input[type=submit] {
   cursor: pointer; }
 
 .tilted-container {
-  background-image: url("../images/Blue_Slope.png");
+  background-image: url(../images/Blue_Slope.png);
   height: 210px;
   position: absolute;
   width: 100%;
-  bottom: -66px;
-  left: 0px;
-  margin-top: 34px; }
+  margin-top: 210px; }
 
 .left-polaroid {
   position: absolute;

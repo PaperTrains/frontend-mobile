@@ -14,7 +14,7 @@
             je collega's en nieuwe<br>
             plekken kennen</p>  
         </div>
-        <a href="upload_window.php">
+        <a href="picture">
             <input type="submit" value="Maak kennis!">
         </a>
         <div class="tilted-container">

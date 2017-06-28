@@ -22,7 +22,7 @@
                 <input type="text" name="Wachtwoord" value="Wachtwoord"><br>
             </div>
         </div>
-        <a href="intro.php">
+        <a href="intro">
             <input type="submit" value="Inloggen">
         </a>
     </div>

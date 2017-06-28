@@ -63,7 +63,7 @@ function SendData()
         success: function(jsonData){
             // after uploading, process the photo
             console.log(jsonData);
-            window.location.href = "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/results.php";
+            window.location.href = "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/results";
         },
         error: function(jqxhr,textStatus,errorThrown) {
             console.log("Fout: Uploaden mislukt." + jqxhr + textStatus + errorThrown);

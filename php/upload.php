@@ -87,7 +87,6 @@ if(isset($_POST) and $_SERVER['REQUEST_METHOD'] == "POST") {
                     $saveImageSuccess = move_uploaded_file($tmp, $path.$actual_image_name);
                 }
 
-
                 //save image
                 if($saveImageSuccess) {
                     $result["file_location"] = $url_path.$actual_image_name;
