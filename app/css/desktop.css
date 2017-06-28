@@ -1,0 +1,9 @@
+body {
+  background: #ffcc18 url("../images/ns_background.png") repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  height: 100%;
+  width: 100%; }
