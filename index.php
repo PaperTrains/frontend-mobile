@@ -11,7 +11,7 @@
         <div class="login-header">
             <img src="./app/images/Header.png">
         </div>
-        <img src="./app/images/h1.png" class="papertrains-head">
+        <img src="./app/images/H1.png" class="papertrains-head">
         <div class="login-form">
             <div class="username">
                 <img src="./app/images/gebruikersnaam_icon.png">
@@ -21,13 +21,10 @@
                 <img src="./app/images/wachtwoord_icon.png">
                 <input type="text" name="Wachtwoord" value="Wachtwoord"><br>
             </div>
-        </div>    
-
+        </div>
         <a href="intro.php">
             <input type="submit" value="Inloggen">
-        </a>    
-        
+        </a>
     </div>
-  <script src="./app/js/scripts.js"></script>
 </body>
 </html>

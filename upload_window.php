@@ -10,7 +10,7 @@
     <div class="main-container">
         <div class="polaroidContainer">
             <div id="upload" class="upload">
-                <img id="camera" class="camera" src="./app/images/camera_ICOON.png">
+                <img id="camera" class="camera" src="./app/images/Camera_ICOON.png">
                 <img id="checkmark" class="checkmark hidden" src="./app/images/Done_ICOON.png">
                 <span id= "upload-text" class="upload-text">Voeg uw foto toe</span>
                 <input type="file" id="file-input"/>

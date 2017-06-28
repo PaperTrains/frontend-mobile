@@ -8,18 +8,15 @@
 </head>
 <body>
     <div class="main-container">
-    
         <div class="results-message">
-            <img src="./app/images/Ns_Logo_NB.png" class="ns-logo-nb">
+            <img src="./app/images/NS_Logo_NB.png" class="ns-logo-nb">
             <div class="results-text">
                 <p>Bedankt voor je inzending.<br>
                 <br>
                 Kijk over een tijdje nog<br>
                 eens voor leuke reacties!</p>  
             </div>
-        </div>      
-        
+        </div>
     </div>
-  <script src="./app/js/scripts.js"></script>
 </body>
 </html>

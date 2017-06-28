@@ -45,7 +45,6 @@ $(document).ready(function(){
 
 function SendData()
 {
-    console.log("senddata");
     var count = $("#file-input").attr('id');
     count = count.replace("img_upload_", "");
 
@@ -60,13 +59,14 @@ function SendData()
         processData: false, // important
         contentType: false, // important
         data: data,
-        url: "http://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/images/upload.php",
+        url: "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/images/upload.php",
         success: function(jsonData){
             // after uploading, process the photo
             console.log(jsonData);
+            window.location.href = "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/results.php";
         },
         error: function(jqxhr,textStatus,errorThrown) {
-            alert("Fout: Uploaden mislukt." + jqxhr + textStatus + errorThrown);
+            console.log("Fout: Uploaden mislukt." + jqxhr + textStatus + errorThrown);
         }
     });
 }

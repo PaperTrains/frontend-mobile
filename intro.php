@@ -8,24 +8,19 @@
 </head>
 <body>
     <div class="main-container">
-        
-        <img src="./app/images/Ns_Logo_NB.png" class="ns-logo-nb">
+        <img src="./app/images/NS_Logo_NB.png" class="ns-logo-nb">
         <div class="intro-text">
             <p>Leer op een leuke manier<br>
             je collega's en nieuwe<br>
             plekken kennen</p>  
-        </div>    
-
-        <a href="uploadWindow.php">
+        </div>
+        <a href="upload_window.php">
             <input type="submit" value="Maak kennis!">
-        </a>    
-
+        </a>
         <div class="tilted-container">
             <img src="./app/images/left_polaroid.png" class="left-polaroid">
             <img src="./app/images/right_polaroid.png" class="right-polaroid">
         </div>
-        
     </div>
-  <script src="./app/js/scripts.js"></script>
 </body>
 </html>
