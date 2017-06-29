@@ -9,7 +9,7 @@ if (!isset($_SESSION['upload_sessions_id'])) {
 
 $session_id = $_SESSION["upload_sessions_id"]; // User session id
 
-$baseurl = "http://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/images/";
+$baseurl = "http://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper-trains/images/";
 
 // make dir if it doenst exist
 $path = "uploads/";
