@@ -59,11 +59,11 @@ function SendData()
         processData: false, // important
         contentType: false, // important
         data: data,
-        url: "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/images/upload.php",
+        url: "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper-trains/images/upload.php",
         success: function(jsonData){
             // after uploading, process the photo
             console.log(jsonData);
-            window.location.href = "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper_trains/results";
+            window.location.href = "https://project.cmi.hr.nl/2016_2017/medialab_ns_t1/paper-trains/results";
         },
         error: function(jqxhr,textStatus,errorThrown) {
             console.log("Fout: Uploaden mislukt." + jqxhr + textStatus + errorThrown);

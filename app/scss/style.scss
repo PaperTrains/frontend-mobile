@@ -37,6 +37,12 @@ input[type=submit] {
     cursor: pointer;
 }
 
+.password-input, .username-input {
+    border: none;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
 .username {
     width: 62%;
     background-color: white;

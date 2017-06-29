@@ -15,11 +15,11 @@
         <div class="login-form">
             <div class="username">
                 <img src="./app/images/gebruikersnaam_icon.png">
-                <input type="text" name="Gebruikersnaam" value="Gebruikersnaam"><br>
+                <input class="username-input" type="text" name="Gebruikersnaam" placeholder="Gebruikersnaam"><br>
             </div>
             <div class="password">
                 <img src="./app/images/wachtwoord_icon.png">
-                <input type="text" name="Wachtwoord" value="Wachtwoord"><br>
+                <input class="password-input" type="text" name="Wachtwoord" placeholder="Wachtwoord"><br>
             </div>
         </div>
         <a href="intro">
